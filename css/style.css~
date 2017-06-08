@@ -1,0 +1,19 @@
+#wrapper, #header_img img{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding-left:0;
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}

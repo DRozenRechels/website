@@ -1,0 +1,88 @@
+/*Structure générale de la page*/
+#wrapper, #header_img img{
+	width:100%;
+	margin-left:auto;;
+	margin-right:auto;
+}
+
+/*Entre le contenu et le bas de la page*/
+#wrapper {
+		margin-bottom: 10px;
+}
+
+/*Espace sur les côtés*/
+#wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+
+/*Entre la bannière et le contenu*/
+#header {
+	margin-bottom: 30px;
+}
+
+/*Entre les pages et les langues*/
+#languages {
+	margin-left: 8px;
+}
+
+/*Mettre les logos*/
+#logolink {
+	width: 400px;
+}
+
+/*Activité et couleurs des boutons des pages*/
+.navbar-inner > li > a{
+color: #D96030 !important;
+}
+.navbar-inner > li > a:hover {
+background-color: #D39D87 !important;
+color: #FFFFF !important;
+}
+
+/*Taille des drapeaux pour les langues*/
+.langue {
+	width: 15px;
+	height: 15px;
+}
+
+.no_padding {
+	padding: 0px !important;
+}
+
+.small {
+	height: 10px;
+	box-shadow: none !important;
+}
+
+.photo {
+	padding-left: 0px;
+}
+
+.description {
+	border-width: 3px;
+	border-style: solid;
+}
+
+.description {
+font-size: 25px;
+line-height: 1.42857143;
+color: #333;
+font-family: Miso;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding-left:0;
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline;
+}
+
+.navbar {
+	margin-bottom:0px;
+}
